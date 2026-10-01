@@ -1,10 +1,10 @@
+cat << 'EOF' > README.md
 # ttop 🚀
 
 A sleek, lightweight, and modern Terminal System Monitor built with Python, [Textual](https://github.com/Textualize/textual), and [Rich](https://github.com/Textualize/rich).
 
 `ttop` provides a clean 2x2 grid dashboard to monitor your system metrics in real time with high accuracy and minimal resource overhead.
 
-![License](https://img.shields.io/github/license/mmlifo/ttop)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 
