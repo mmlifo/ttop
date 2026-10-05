@@ -7,7 +7,7 @@ from textual.widgets import Header, Footer, Static
 
 
 def get_cpu_temp_val() -> float:
-    """دریافت عدد دمای CPU"""
+    """CPU temp"""
     try:
         temps = psutil.sensors_temperatures()
         if not temps:
@@ -39,7 +39,6 @@ def make_bar(percent: float, color: str = "cyan", length: int = 14) -> Text:
 
 
 def make_temp_bar(temp_val: float, length: int = 14) -> Text:
-    """ساخت نوار اختصاصی دما با تغییر رنگ بر اساس میزان حرارت"""
     text = Text()
     if temp_val is None:
         text.append("[N/A]", style="dim white")
